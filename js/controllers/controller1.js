@@ -1,0 +1,1 @@
+define(["modules"],function(e){var o=e.controller("controller1",["$scope","xxService",function(e,o){e.title="111",e.click=function(){o.getAddressList()},console.log(e)}]);return o});

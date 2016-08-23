@@ -1,0 +1,1 @@
+define(["modules"],function(e){return e.filter("dateFormat",function(){return function(e){return e?(e=parseInt(e),see.format_date(new Date(e),"yyyy年MM月dd hh:mm:ss")):""}}),e});

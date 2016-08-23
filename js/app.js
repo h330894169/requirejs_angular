@@ -1,0 +1,1 @@
+define(["angular","modules","ocLazyLoad","uiRoute","ngAnimate","loadingBar","UIBootstrap","directives/directive","filters/filter","service/service"],function(e,a){return e.module("webapp",["oc.lazyLoad","ngAnimate","angular-loading-bar","ui.router","webapp.modules","ui.bootstrap"])});

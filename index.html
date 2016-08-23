@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+
+  <title>电商平台</title>
+
+  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/style.default.css?v=e639aeb125" rel="stylesheet">
+  <link href="bower_components/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body class="stickyheader">
+	<!--[if lt IE 9]>
+    <div class="browsehappy">您的浏览器版本过低,存在严重的安全隐患,请
+    	<a href="http://browsehappy.com">升级您的浏览器</a>体验完整功能.建议使用chrome浏览器
+    </div>
+<![endif]-->
+<!-- Preloader 
+<div id="preloader">
+    <div id="status"><i class="fa fa-spinner fa-spin"></i></div>
+</div>-->
+<div id="preloader" class="loader-overlay">
+    <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+</div>
+
+<section>
+
+  <div class="leftpanel logo-text">
+
+    <div class="logopanel">
+        <h1><img class="g-topLogo f-left" id="bmLogoUrl" height="26" src="http://bmtest.ematong.com/resources/images/linke-logo.png">电商平台 </h1>
+    </div><!-- logopanel -->
+
+    <div class="leftpanelinner">
+
+        <!-- This is only visible to small devices -->
+        <div class="visible-xs hidden-sm hidden-md hidden-lg">
+            <div class="media userlogged">
+                <div class="media-body">
+                    <h4><a class="text-success"> [ytest测试商家123]ytest</a></h4>
+                    <span><i class="fa-jpy fa"></i><a class="text-success">11171.51</a>元</span>
+                </div>
+            </div>
+            <ul class="nav nav-pills nav-stacked nav-bracket mb30">
+              <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> <span>领客O2O开放平台 </span></a></li>
+              <li><a href="email.html"><i class="glyphicon glyphicon-cog"></i> <span>配置</span></a></li>
+              <li><a href="#"><i class="fa  fa-windows"></i> 系统 </a></li>
+              <li><a href=""><i class="fa fa-cog"></i> <span>修改密码</span></a></li>
+              <li><a href="signout.html"><i class="fa fa-sign-out"></i> <span>退出</span></a></li>
+            </ul>
+        </div>
+
+      <h5 class="sidebartitle"></h5>
+      <ul class="nav nav-pills nav-stacked nav-bracket">
+        <li class="nav-parent active"><a href=""><i class="fa fa-home"></i> <span>电商管理</span></a>
+          <ul class="children">
+            <li class="active"><a href="general-forms.html"><i class="fa fa-caret-right"></i> 店铺管理</a></li>
+            <li><a href="form-layouts.html"><i class="fa fa-caret-right"></i> 商品管理</a></li>
+            <li><a href="form-validation.html"><i class="fa fa-caret-right"></i> 分类管理</a></li>
+            <li><a href="form-wizards.html"><i class="fa fa-caret-right"></i> 页面管理</a></li>
+            <li><a href="wysiwyg.html"><i class="fa fa-caret-right"></i> 订单管理</a></li>
+            <li><a href="code-editor.html"><i class="fa fa-caret-right"></i> 商品促销</a></li>
+          </ul>
+        </li>
+        <li class="nav-parent"><a href=""><i class="fa fa-truck"></i> <span>电商运营</span></a>
+          <ul class="children">
+            <li><a href="buttons.html"><i class="fa fa-caret-right"></i> 优惠套餐</a></li>
+            <li><a href="typography.html"><i class="fa fa-caret-right"></i> 预售</a></li>
+            <li><a href="alerts.html"><i class="fa fa-caret-right"></i> 限时特价</a></li>
+            <li><a href="modals.html"><i class="fa fa-caret-right"></i> 抱团购</a></li>
+            <li><a href="tabs-accordions.html"><i class="fa fa-caret-right"></i> 代金券</a></li>
+            <li><a href="sliders.html"><i class="fa fa-caret-right"></i> 秒杀</a></li>
+            <li><a href="graphs.html"><i class="fa fa-caret-right"></i> 许愿</a></li>
+            <li><a href="widgets.html"><i class="fa fa-caret-right"></i> 送礼</a></li>
+            <li><a href="extras.html"><i class="fa fa-caret-right"></i> 客户管理</a></li>
+          </ul>
+        </li>
+        <li><a href="tables.html"><i class="fa fa-th-list"></i> <span>Tables</span></a></li>
+        <li class="nav-parent"><a href=""><i class="fa fa-bug"></i> <span>Bug Tracker</span></a>
+            <ul class="children">
+                <li><a href="bug-tracker.html"><i class="fa fa-caret-right"></i> Summary</a></li>
+                <li><a href="bug-issues.html"><i class="fa fa-caret-right"></i> Issues</a></li>
+                <li><a href="view-issue.html"><i class="fa fa-caret-right"></i> View Issue</a></li>
+            </ul>
+        </li>
+        <li><a href="maps.html"><i class="fa fa-map-marker"></i> <span>Maps</span></a></li>
+        <li class="nav-parent"><a href=""><i class="fa fa-file-text"></i> <span>Pages</span></a>
+          <ul class="children">
+            <li><a href="calendar.html"><i class="fa fa-caret-right"></i> Calendar</a></li>
+            <li><a href="media-manager.html"><i class="fa fa-caret-right"></i> Media Manager</a></li>
+            <li><a href="timeline.html"><i class="fa fa-caret-right"></i> Timeline</a></li>
+            <li><a href="blog-list.html"><i class="fa fa-caret-right"></i> Blog List</a></li>
+            <li><a href="blog-single.html"><i class="fa fa-caret-right"></i> Blog Single</a></li>
+            <li><a href="people-directory.html"><i class="fa fa-caret-right"></i> People Directory</a></li>
+            <li><a href="profile.html"><i class="fa fa-caret-right"></i> Profile</a></li>
+            <li><a href="invoice.html"><i class="fa fa-caret-right"></i> Invoice</a></li>
+            <li><a href="search-results.html"><i class="fa fa-caret-right"></i> Search Results</a></li>
+            <li><a href="blank.html"><i class="fa fa-caret-right"></i> Blank Page</a></li>
+            <li><a href="notfound.html"><i class="fa fa-caret-right"></i> 404 Page</a></li>
+            <li><a href="locked.html"><i class="fa fa-caret-right"></i> Locked Screen</a></li>
+            <li><a href="signin.html"><i class="fa fa-caret-right"></i> Sign In</a></li>
+            <li><a href="signup.html"><i class="fa fa-caret-right"></i> Sign Up</a></li>
+          </ul>
+        </li>
+        <li class="nav-parent"><a href="layouts.html"><i class="fa fa-laptop"></i> <span>Skins &amp; Layouts</span></a>
+            <ul class="children">
+                <li><a href="layouts.html"><i class="fa fa-caret-right"></i> General Layouts</a></li>
+                <li><a href="horizontal-menu.html"><i class="fa fa-caret-right"></i> Top Menu</a></li>
+                <li><a href="horizontal-menu2.html"><i class="fa fa-caret-right"></i> Top Menu w/ Sidebar</a></li>
+                <li><a href="fixed-width.html"><i class="fa fa-caret-right"></i> Fixed Width Page</a></li>
+                <li><a href="fixed-width2.html"><i class="fa fa-caret-right"></i> Fixed Width w/ Menu</a></li>
+            </ul>
+        </li>
+      </ul>
+
+    </div><!-- leftpanelinner -->
+  </div><!-- leftpanel -->
+
+  <div class="mainpanel ui-view-container">
+
+    <div class="headerbar">
+
+      <div class="topnav">
+            <a class="menutoggle"><i class="fa fa-bars"></i></a>
+            <ul class="nav nav-horizontal">
+                <li><a href="index.html"><i class="glyphicon glyphicon-home"></i> <span>开放平台 </span></a></li>
+                <li><a href="email.html"><i class="glyphicon glyphicon-cog"></i> <span>配置</span></a></li>
+                <li class="nav-parent"><a class="dropdown-toggle" href="#"><i class="fa  fa-windows"></i> 系统 </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="header-right">
+        <ul class="headermenu">
+          <li>
+              <div class="tp-icon login-info">
+                Welcome <a class="text-success">[ytest测试商家123]ytest！</a><i class="fa-jpy fa"></i> <a class="text-success">11171.51</a>元
+              </div>
+          </li>
+          <li>
+            <button id="chatview" class="btn btn-default tp-icon chat-icon">
+                <i class="glyphicon glyphicon-user"></i>
+            </button>
+          </li>
+          <li>
+            <button id="chatview" class="btn btn-default tp-icon chat-icon">
+                <i class="glyphicon glyphicon-log-out"></i>
+            </button>
+          </li>
+        </ul>
+      </div><!-- header-right -->
+
+    </div><!-- headerbar -->
+
+    <div class="pageheader">
+      <h2><i class="fa fa-home"></i> 电商管理 <span>店铺管理</span></h2>
+      <div class="breadcrumb-wrapper">
+        <span class="label">You are here:</span>
+        <ol class="breadcrumb">
+          <li><a href="#/home">电商</a></li>
+          <li class="active"><a href="#/contacts/list">电商管理</a></li>
+        </ol>
+      </div>
+    </div>
+
+    <div ui-view class="contentpanel">
+    	
+
+    </div><!-- contentpanel -->
+
+  </div><!-- mainpanel -->
+
+
+</section>
+
+<div class="page-footer text-center" style=""><div class="page-footer-inner ng-scope"> 2016 © 深圳市XX科技发展有限公司，保留所有权利 </div>
+<div class="scroll-to-top" style="display: block;">
+    <i class="fa fa-arrow-circle-o-up"></i>
+</div></div>
+<script src="bower_components/requirejs/require.js" ></script>
+<script src="js/main.js?v=b291092ebd"></script>
+<script>
+	require(["main"])
+</script>
+</body>
+</html>

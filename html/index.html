@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grunt seajs demo</title>
+<style>
+	.box{
+		width: 100px;
+		height: 100px;
+	}
+</style>
+</head>
+<body>
+<div id="box" class="box"></div>
+<div class="navbar navbar-fixed-top">
+      <div class="navbar-inner"><div class="container">
+
+        <a class="brand" ui-sref="home">ui-router</a>
+        <ul class="nav">
+          <li ng-class="{active: $state.includes('contacts')}"><a ui-sref="contacts.list">Contacts</a></li>
+          <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+        </ul>
+
+        <p ui-view="hint" class="navbar-text pull-right"></p>
+      </div></div>
+    </div>
+
+    <div ui-view class="container slide" style="padding-top: 80px;"></div>
+</body>
+<!-- build:js ../js/lib/combined.js -->
+<script src="../bower_components/requirejs/require.js" data-main="../js/main.js?a=1"></script>
+
+<!-- endbuild -->
+<script>
+</script>
+</html>
